@@ -1,0 +1,5 @@
+# https://taskfile.dev
+version: "3"
+tasks:
+  sh: iex --erl "-kernel shell_history enabled" -S mix
+  default: mix test
